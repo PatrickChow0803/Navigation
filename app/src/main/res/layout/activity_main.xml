@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!--    navGraph is used to connect this activity to the navigation. defaultNavHost is also true.-->
+<!--    app:defaultNavHost : A boolean that if set true will allow the Navigation Host to intercept when the system back button is pressed.-->
 
     <fragment
         android:id="@+id/nav_host_fragment"
